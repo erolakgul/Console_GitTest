@@ -10,3 +10,6 @@ Console_GitTest
 
 ## class'a sağ tık Git => Blame (Annotation) tıklandığında dosyadaki her satır kümesinin hangi commit ile eklendiği ve kimin tarafından ne zaman eklendiği bilgilerini gösterir
  
+## eğer new branch denirse o anki görüntü yeni branch e aktarılır. yeni branch te yapılacak değişiklikler diğerini etkilemez. Örneğin test branch i açtık ve orada değişiklikleri yaptık, çalışıyor uygulama, böylece canlı ortam branch ine aktarılaiblir gibi,
+
+##
