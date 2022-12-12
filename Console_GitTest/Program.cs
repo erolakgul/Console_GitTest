@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Console_GitTest.LogHelper;
+
 Console.WriteLine("Hello, World!");
 
 for (int i = 0; i < 5; i++)
@@ -17,3 +19,7 @@ foreach (var item in listInt)
 {
     Console.WriteLine($"{item}.ci satır");
 }
+
+Logger Logger = new();
+
+Console.WriteLine(Logger);
