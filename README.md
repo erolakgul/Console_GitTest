@@ -20,3 +20,5 @@ Visual studio da ise aşağıdaki gibi değiştirilebiliyor.
 
 ![image](https://user-images.githubusercontent.com/17858773/207018519-ac5f1324-0b97-4c6f-a383-5551961447bb.png)
 
+## eğer yeni bir geliştirmeyi commitlemeden önce stage e alırsak, buna tüm branch ler erişebilir. Commitlenene kadar da aktif olur.
+
