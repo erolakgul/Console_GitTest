@@ -1,0 +1,7 @@
+﻿
+https://medium.com/@aliustaoglu/git-cakismalarini-gidermenin-etkili-yollari-91b1160ce2e9
+
+https://www.mobilhanem.com/git-merge-conflict/#:~:text=%C4%B0ki%20ki%C5%9Fi%20ayn%C4%B1%20dosyay%C4%B1%20ve,sonra%20merge%20i%C5%9Flemine%20devam%20etmelidir.
+
+https://medium.com/nafidurmus/git-ile-dallanma-branching-ve-birle%C5%9Ftirme-merging-olaylar%C4%B1-da805501cc61
+
