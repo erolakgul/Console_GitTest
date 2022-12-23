@@ -22,3 +22,11 @@ Visual studio da ise aşağıdaki gibi değiştirilebiliyor.
 
 ## eğer yeni bir geliştirmeyi commitlemeden önce stage e alırsak, buna tüm branch ler erişebilir. Commitlenene kadar da aktif olur.
 
+## örneğin bir dosyada ard arda birçok değişiklik yapıldı ama commit lenmedi ama save ile kaydedildi. Bu durumda bir önceki commit e dönmek için
+git restore dosyadi.cs ile eski haline geri dönülür
+ya da
+
+git checkout <commitid> ile istenilen commit e geri dönülür ya da vs de aşağıdaki gibi sağ tık checkout ile bir önceki versiyona geri dönülür
+ 
+ ![image](https://user-images.githubusercontent.com/17858773/207597131-12f0f37f-1dfe-4a62-9394-32b7dd9c2c28.png)
+
