@@ -2,6 +2,19 @@ Console_GitTest
 
 ## https://kod5.org/baslica-git-komutlari/
 
+/*package manager console veya git bash ten uygulama dizinine gidip kodlar çalıştırılabilir*/
+
+git log => tüm commitleri listeler
+git branch => tüm branchleri listeler
+git status => hangi branch te olduğu bilgisini döner
+git checkout commitid => ilgili comitte ki an'a gider
+git checkout master => orjinal hale geri getirir
+git branch newBranch => yeni branch açar
+git checkout newBranch => yeni branch e geçiş yapar
+git push origin newBranch => local de komutla çalıştırıldığında branch i github ta da görülebilir kılar
+
+
+
 ## windows ##
 ## git --help => kullanılabilecek olan git komutlarını indirir
 
