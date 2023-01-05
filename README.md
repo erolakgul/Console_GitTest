@@ -15,8 +15,8 @@ Console_GitTest
 
 /**/
 ## git branch -va => master ve diğer branch lerde yapılan değişiklikleri listeler
-## git branch -d <branch> => local branch i kaldırma
-## git push <url veya remote> -d <branch> => uzaktaki branch i kaldırma
+## git branch -d newbranch => local branch i kaldırma
+## git push "url veya remote" -d newBranch => uzaktaki branch i kaldırma
 ## git checkout --track origin/newBranch => github tan ilk defa çekilen (git clone) uygulamamnın diğer branch ini de local e çekmek için kullanılır
 
 
