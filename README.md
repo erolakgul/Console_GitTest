@@ -13,6 +13,11 @@ Console_GitTest
 ## git checkout newBranch => yeni branch e geçiş yapar
 ## git push origin newBranch => local de komutla çalıştırıldığında branch i github ta da görülebilir kılar
 
+/**/
+## git branch -va => master ve diğer branch lerde yapılan değişiklikleri listeler
+## git branch -d <branch> => local branch i kaldırma
+## git push <url veya remote> -d <branch> => uzaktaki branch i kaldırma
+## git checkout --track origin/newBranch => github tan ilk defa çekilen (git clone) uygulamamnın diğer branch ini de local e çekmek için kullanılır
 
 
 ## windows ##
