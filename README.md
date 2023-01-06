@@ -19,6 +19,10 @@ Console_GitTest
 ## git push "url veya remote" -d newBranch => uzaktaki branch i kaldırma
 ## git checkout --track origin/newBranch => github tan ilk defa çekilen (git clone) uygulamamnın diğer branch ini de local e çekmek için kullanılır
 
+/*son olarak yeni açılan branch tekilerin master a alınması*/
+## git checkout master  => ile merge ile aktarılacak olan branch seçilir
+## git merge newBranch   => ile de yeni branch teki değşikliklerin tamamı master branch ine aktarılmış olur.
+
 
 ## windows ##
 ## git --help => kullanılabilecek olan git komutlarını indirir
