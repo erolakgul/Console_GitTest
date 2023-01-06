@@ -23,6 +23,10 @@ Console_GitTest
 ## git checkout master  => ile merge ile aktarılacak olan branch seçilir
 ## git merge newBranch   => ile de yeni branch teki değşikliklerin tamamı master branch ine aktarılmış olur.
 
+/*
+çakışma olursa merge sayfası açılır, hangi değişiklik geçerli olacaksa o branch seçilir ve accept merge butonuna tıklanır visual studio da
+   en sonda da commit stage sync seçilerek eşleştirmenin tamamlanması sağlanır
+*/
 
 ## windows ##
 ## git --help => kullanılabilecek olan git komutlarını indirir
