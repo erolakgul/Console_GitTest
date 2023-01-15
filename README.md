@@ -2,6 +2,10 @@ Console_GitTest
 
 ## https://kod5.org/baslica-git-komutlari/
 
+![image](https://user-images.githubusercontent.com/17858773/212527032-bef8ef68-32b1-4bb2-adba-d15d1acc9150.png)
+
+## https://app.patika.dev/courses/frontend-web-gelistirme/git-bash-ile-git-temel-komutlari#:~:text=git%20add,staged%20ortam%C4%B1na%20g%C3%B6ndermek%20i%C3%A7in%20kullan%C4%B1l%C4%B1r.&text=Tek%20seferde%20b%C3%BCt%C3%BCn%20dosyalar%C4%B1%20eklemek,%24%20git%20add%20.
+
 /*package manager console veya git bash ten uygulama dizinine gidip kodlar çalıştırılabilir*/
 
 ## git log => tüm commitleri listeler
