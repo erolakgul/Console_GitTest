@@ -37,6 +37,12 @@ Console_GitTest
    en sonda da commit stage sync seçilerek eşleştirmenin tamamlanması sağlanır
 */
 
+## git pull
+
+## git rebase master => bu komutu kullandığımızda örneğin test branch in dayız , master da yapılmış değişiklikleri test branch imize almış oluruz, test branch ini açarken çünkü master dan kopyalamıştık; master da bi değişiklik yapıldığında onu içeri alabilmek için rebase komutunu kullanırız:
+
+
+********************************************************************************************************************************
 ## windows ##
 ## git --help => kullanılabilecek olan git komutlarını indirir
 
