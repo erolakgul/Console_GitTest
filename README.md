@@ -41,6 +41,9 @@ Console_GitTest
 
 ## git rebase master => bu komutu kullandığımızda örneğin test branch in dayız , master da yapılmış değişiklikleri test branch imize almış oluruz, test branch ini açarken çünkü master dan kopyalamıştık; master da bi değişiklik yapıldığında onu içeri alabilmek için rebase komutunu kullanırız:
 
+##  git branch -a To see all local and remote branches
+
+
 
 ********************************************************************************************************************************
 ## windows ##
