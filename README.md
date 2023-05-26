@@ -1,5 +1,11 @@
 Console_GitTest
 
+## https://infoheap.com/git-view-diff-for-a-given-commit-id/
+## git diff commitId^! : commit id de yapılan değişiklikleri gösterir
+   git diff 6e39861e8eaa935e6094cf0eadeaec94b5711840^! gibi
+eksiler önceki hali, artılar sonraki halini gösterir
+![image](https://github.com/erolakgul/Console_GitTest/assets/17858773/112a5942-d9a7-45c0-8398-7762572a1ae1)
+
 ## https://kod5.org/baslica-git-komutlari/
 
 ![image](https://user-images.githubusercontent.com/17858773/212527032-bef8ef68-32b1-4bb2-adba-d15d1acc9150.png)
