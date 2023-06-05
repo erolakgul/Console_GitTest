@@ -51,6 +51,9 @@ eksiler önceki hali, artılar sonraki halini gösterir
 ##  git branch -vv Kullanılan yerel veya uzak şubeler, commit id'ler, commit mesajları gibi detaylı bilgileri çalıştırarak görebilirsiniz.
 
 
+## https://medium.com/nafidurmus/git-son-de%C4%9Fi%C5%9Fiklikleri-commiti-geri-alma-%C3%B6rnekli-f9bc1030f8c4
+# git reset --hard commitid komutu ile yazılan commitid ye geri dönülür ve aradaki commit ler gider
+# git revert commitid  komutu ile de yeni bir commit oluşturur ve yazdığımız commitid yi geçersiz kılar
 ********************************************************************************************************************************
 ## windows ##
 ## git --help => kullanılabilecek olan git komutlarını indirir
