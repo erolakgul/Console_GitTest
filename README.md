@@ -50,6 +50,10 @@ eksiler önceki hali, artılar sonraki halini gösterir
 ##  git branch -a To see all local and remote branches
 ##  git branch -vv Kullanılan yerel veya uzak şubeler, commit id'ler, commit mesajları gibi detaylı bilgileri çalıştırarak görebilirsiniz.
 
+## local ve remote branch ismi değiştirme , master da iken
+git branch -m old-name new-name => eski branch adını yenisi ile update eder
+git push origin :old-name new-name => eski branhc i uzaktan siler yenisini açar
+git push origin -u new-name => yeni branch te trace etmeye başlar
 
 ## https://medium.com/nafidurmus/git-son-de%C4%9Fi%C5%9Fiklikleri-commiti-geri-alma-%C3%B6rnekli-f9bc1030f8c4
 # git reset --hard commitid komutu ile yazılan commitid ye geri dönülür ve aradaki commit ler gider
