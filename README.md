@@ -1,5 +1,60 @@
 Console_GitTest
 
+## https://infoheap.com/git-view-diff-for-a-given-commit-id/
+## git diff commitId^! : commit id de yapılan değişiklikleri gösterir
+   git diff 6e39861e8eaa935e6094cf0eadeaec94b5711840^! gibi
+eksiler önceki hali, artılar sonraki halini gösterir
+![image](https://github.com/erolakgul/Console_GitTest/assets/17858773/112a5942-d9a7-45c0-8398-7762572a1ae1)
+
+## https://kod5.org/baslica-git-komutlari/
+
+![image](https://user-images.githubusercontent.com/17858773/212527032-bef8ef68-32b1-4bb2-adba-d15d1acc9150.png)
+
+## https://app.patika.dev/courses/frontend-web-gelistirme/git-bash-ile-git-temel-komutlari#:~:text=git%20add,staged%20ortam%C4%B1na%20g%C3%B6ndermek%20i%C3%A7in%20kullan%C4%B1l%C4%B1r.&text=Tek%20seferde%20b%C3%BCt%C3%BCn%20dosyalar%C4%B1%20eklemek,%24%20git%20add%20.
+
+/*package manager console veya git bash ten uygulama dizinine gidip kodlar çalıştırılabilir*/
+
+## git log => tüm commitleri listeler
+## git branch => tüm branchleri listeler
+## git status => hangi branch te olduğu bilgisini döner
+## git checkout commitid => ilgili comitte ki an'a gider
+## git checkout master => orjinal hale geri getirir
+## git branch newBranch => yeni branch açar
+## git checkout newBranch => yeni branch e geçiş yapar
+## git push origin newBranch => local de komutla çalıştırıldığında branch i github ta da görülebilir kılar
+
+/**/
+## git branch -va => master ve diğer branch lerde yapılan değişiklikleri listeler
+
+## git branch -d newbranch => local branch i kaldırma
+# git push -d dataTableTrying
+## git push "url veya remote" -d newBranch => uzaktaki branch i kaldırma
+# git push origin -d dataTableTrying
+
+## git checkout --track origin/newBranch => github tan ilk defa çekilen (git clone) uygulamamnın diğer branch ini de local e çekmek için kullanılır
+
+/*son olarak yeni açılan branch tekilerin master a alınması*/
+## git checkout master  => ile merge ile aktarılacak olan branch seçilir
+## git merge newBranch   => ile de yeni branch teki değşikliklerin tamamı master branch ine aktarılmış olur.
+## git status ile bakıldığında çakışma olan dosyalar listelenir, eğer sroun yoksa
+## git push => ile de master sayfasına aktarılmış değişiklikleri remote tarafına gönderir
+/*
+çakışma olursa merge sayfası açılır, hangi değişiklik geçerli olacaksa o branch seçilir ve accept merge butonuna tıklanır visual studio da
+   en sonda da commit stage sync seçilerek eşleştirmenin tamamlanması sağlanır
+*/
+
+## git pull
+
+## git rebase master => bu komutu kullandığımızda örneğin test branch in dayız , master da yapılmış değişiklikleri test branch imize almış oluruz, test branch ini açarken çünkü master dan kopyalamıştık; master da bi değişiklik yapıldığında onu içeri alabilmek için rebase komutunu kullanırız:
+
+##  git branch -a To see all local and remote branches
+##  git branch -vv Kullanılan yerel veya uzak şubeler, commit id'ler, commit mesajları gibi detaylı bilgileri çalıştırarak görebilirsiniz.
+
+
+## https://medium.com/nafidurmus/git-son-de%C4%9Fi%C5%9Fiklikleri-commiti-geri-alma-%C3%B6rnekli-f9bc1030f8c4
+# git reset --hard commitid komutu ile yazılan commitid ye geri dönülür ve aradaki commit ler gider
+# git revert commitid  komutu ile de yeni bir commit oluşturur ve yazdığımız commitid yi geçersiz kılar
+********************************************************************************************************************************
 ## windows ##
 ## git --help => kullanılabilecek olan git komutlarını indirir
 
