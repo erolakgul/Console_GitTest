@@ -89,3 +89,36 @@ git checkout <commitid> ile istenilen commit e geri dönülür ya da vs de aşa�
  
  ![image](https://user-images.githubusercontent.com/17858773/207597131-12f0f37f-1dfe-4a62-9394-32b7dd9c2c28.png)
 
+ ///////////////////// isimlendirme kuralları  ////////////////////////////////
+
+ 1. Anlaşılır ve Açıklayıcı Olmalı:
+Kısa ama açıklayıcı: Branch ismi mümkün olduğunca kısa olmalı, ancak aynı zamanda amacını açıkça ifade etmelidir.
+Kolay anlaşılır: Branch ismini gören herkes, bu branch'in ne amaçla oluşturulduğunu kolayca anlayabilmelidir.
+
+3. Standart İsimlendirme Kuralları:
+Feature (Özellik) Branch'leri: Yeni bir özellik eklemek için oluşturulan branch'ler. Örneğin, feature/login, feature/user-registration.
+Bugfix (Hata Düzeltme) Branch'leri: Hataları düzeltmek için oluşturulan branch'ler. Örneğin, bugfix/fix-login-issue, bugfix/registration-error.
+Hotfix (Acil Düzeltme) Branch'leri: Canlıda acil düzeltme gerektiren durumlar için oluşturulan branch'ler. Örneğin, hotfix/security-patch, hotfix/caching-issue.
+Release (Sürüm) Branch'leri: Yayına alınacak sürümler için oluşturulan branch'ler. Örneğin, release/v1.0.0, release/v2.1.0.
+Chore (Rutin İşler) Branch'leri: Teknik borçları ödemek veya kod tabanını temizlemek için oluşturulan branch'ler. Örneğin, chore/refactor-auth-module, chore/update-dependencies.
+
+5. Versiyon Kontrol Sistemi ile Uyumlu Olmalı:
+Küçük harf ve tire kullanımı: Git branch isimlerinde küçük harf ve tire (-) kullanmak yaygındır. Bu, branch isimlerinin okunabilirliğini artırır. Örneğin, feature/add-user-login.
+Benzersiz olmalı: Her branch ismi projede benzersiz olmalıdır.
+
+7. Takım ve Proje Yapısına Uygun Olmalı:
+Proje veya takım spesifik prefixler: Eğer projede birden fazla takım çalışıyorsa, takım isimlerini branch isimlerine dahil etmek faydalı olabilir. Örneğin, frontend/feature/add-login-page, backend/feature/implement-authentication.
+
+9. Kısayollar ve Açıklamalar:
+Jira veya Trello gibi araçlarla entegrasyon: Eğer bir proje yönetim aracı kullanılıyorsa, branch isimlerine ilgili ticket numarasını eklemek faydalı olabilir. Örneğin, feature/JIRA-1234-login-implementation, bugfix/TRELLO-567-fix-registration.
+
+Örnekler:
+
+Yeni bir özellik için: feature/add-login
+Bir hatayı düzeltmek için: bugfix/fix-login-error
+Güvenlik yamaları için: hotfix/security-issue
+Yeni bir sürüm hazırlığı için: release/v1.2.0
+Rutin işler için: chore/update-dependencies
+
+Bu isimlendirme kurallarına uyarak branch isimleri seçmek, projenizin yönetimini kolaylaştırır ve takım üyeleri arasında anlaşılabilirliği artırır.
+
