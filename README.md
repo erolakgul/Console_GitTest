@@ -47,6 +47,16 @@ eksiler önceki hali, artılar sonraki halini gösterir
 
 ## git rebase master => bu komutu kullandığımızda örneğin test branch in dayız , master da yapılmış değişiklikleri test branch imize almış oluruz, test branch ini açarken çünkü master dan kopyalamıştık; master da bi değişiklik yapıldığında onu içeri alabilmek için rebase komutunu kullanırız:
 
+/* değişiklikleri vs den github a gönderme */
+## git add .                   /*tüm dosyaları gönderir*/
+## git add path\to\file.cs     /*sadece file.cs i gönderir*/
+## git commit -m "Buraya değişiklikle ilgili açıklayıcı yorumunu yaz"
+## git push origin currentBranchName
+/*eğer remote ta domainLib branch i yok ise*/
+## git push --set-upstream origin domainLib
+
+
+
 ##  git branch -a To see all local and remote branches
 ##  git branch -vv Kullanılan yerel veya uzak şubeler, commit id'ler, commit mesajları gibi detaylı bilgileri çalıştırarak görebilirsiniz.
 
